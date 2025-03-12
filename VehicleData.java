@@ -52,7 +52,7 @@ class vehicleData{
     }
     //Method that writes the Data to a file
     public static void writeToFile(String vehicleData){
-        String path = "C:\\Users\\jmerr\\OneDrive\\Desktop\\ehicleSheet.txt";
+        String path = "ADD FILE NAME HERE";
         try(FileWriter file = new FileWriter(path)){
             file.write(vehicleData);
             System.out.println("The data has sucessfully been written to the file!");
