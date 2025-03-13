@@ -1,5 +1,5 @@
 # Vehicle Data Collection Program
-This is a simple java program I created to keep track of vehicle Data. I work on my family's vehicles and my girlfriends family's vehicles, and the reason I made this program is because I a paper which contained the information of when I last chnaged the oil on those cars along with other maitnence recipts. The program is pretty straightforward as it prompts the user for information such as the vehicles, year, make and model along with other desired information.
+I created a simple Java program to keep track of vehicle data. This program serves as more efficient way to keep records for the vehicles I work on, especially after I lost a piece of paper containing important information about each vehicle I maintained. The program is straightforward, as it prompts users for details such as the vehicle's year, make, and model, along with any additional information they wish to provide, and stores the users input into a file by writing to the file using Java's FileWriter.
 
 # Features
 
