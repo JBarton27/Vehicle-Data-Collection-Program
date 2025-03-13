@@ -4,8 +4,8 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 // Class to gather and store vehicle data
-class VehicleData{
-    public static void main(String [] args){
+class VehicleData {
+    public static void main(String [] args) {
         Scanner scan = new Scanner(System.in);
         
         System.out.println("What is the year of your vehicle?");
@@ -51,14 +51,14 @@ class VehicleData{
                "Tires Inspected: " + tireInspection + "\n";
     }
     //Method that writes the Data to a file
-    public static void writeToFile(String vehicleData){
+    public static void writeToFile(String vehicleData) {
         String path = "info.txt";
-        try(FileWriter file = new FileWriter(path)){
+        try(FileWriter file = new FileWriter(path)) {
             file.write(vehicleData);
             System.out.println("The data has sucessfully been written to the file!");
         }
-        catch(IOException e){
-            System.out.println("An error occured trying to write the data" + e.getMessage());
+        catch(IOException e) {
+            System.out.println("An error occured trying to write the data: " + e.getMessage());
             
         }
     }
