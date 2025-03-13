@@ -60,7 +60,7 @@ class VehicleData{
         catch(IOException e){
             System.out.println("An error occured trying to write the data" + e.getMessage());
             
-            }
         }
-
     }
+
+}
