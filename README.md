@@ -15,4 +15,7 @@ I created a simple Java program to keep track of vehicle data. This program serv
 # Installation
 
 To use the project, clone the repository to your device.
- 
+
+ # Future improvments
+Fix user errors, such as when a user inputs an incorrect data type.
+implement input validation for data types
